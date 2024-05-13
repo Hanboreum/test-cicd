@@ -2,9 +2,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "main" ] // 마스터 브랜치에 PUSH가되면 해당 WORKFILE이 동작합니다.
+    branches: [ "master" ] // 마스터 브랜치에 PUSH가되면 해당 WORKFILE이 동작합니다.
   pull_request:
-    branches: [ "main" ]// 마스터 브랜치에 PR이 올라가면 해당 WORKFILE이 동작합니다.
+    branches: [ "master" ]// 마스터 브랜치에 PR이 올라가면 해당 WORKFILE이 동작합니다.
 
 permissions: write-all
 
